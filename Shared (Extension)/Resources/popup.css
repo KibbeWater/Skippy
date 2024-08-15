@@ -1,15 +1,57 @@
 :root {
-    color-scheme: light dark;
+  color-scheme: light dark;
 }
 
 body {
-    width: 100px;
-    padding: 10px;
+  min-width: 200px;
+  padding: 10px;
 
-    font-family: system-ui;
-    text-align: center;
+  font-family: system-ui;
+  text-align: center;
+}
+
+h1 {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+}
+
+.title-container {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    display: flex;
+    -webkit-flex-direction: column;
+    width: 100%;
+    -webkit-column-gap: 0.5rem;
+    text-align: start;
+}
+
+.footer a {
+    color: #F00000;
+    font-weight: 600;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 @media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+  /* Dark Mode styles go here. */
 }

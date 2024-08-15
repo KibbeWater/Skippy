@@ -41,8 +41,6 @@
 		806434912C6E69D80036D4B3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 806434422C6E69D80036D4B3 /* popup.html */; };
 		806434922C6E69D80036D4B3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 806434432C6E69D80036D4B3 /* popup.css */; };
 		806434932C6E69D90036D4B3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 806434432C6E69D80036D4B3 /* popup.css */; };
-		806434942C6E69D90036D4B3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 806434442C6E69D80036D4B3 /* popup.js */; };
-		806434952C6E69D90036D4B3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 806434442C6E69D80036D4B3 /* popup.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +99,6 @@
 		806434412C6E69D80036D4B3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		806434422C6E69D80036D4B3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		806434432C6E69D80036D4B3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		806434442C6E69D80036D4B3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		806434492C6E69D80036D4B3 /* Skippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8064344C2C6E69D80036D4B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8064344E2C6E69D80036D4B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,7 +200,6 @@
 				806434412C6E69D80036D4B3 /* content.js */,
 				806434422C6E69D80036D4B3 /* popup.html */,
 				806434432C6E69D80036D4B3 /* popup.css */,
-				806434442C6E69D80036D4B3 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -416,7 +412,6 @@
 				8064348A2C6E69D80036D4B3 /* manifest.json in Resources */,
 				806434862C6E69D80036D4B3 /* _locales in Resources */,
 				8064348E2C6E69D80036D4B3 /* content.js in Resources */,
-				806434942C6E69D90036D4B3 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +425,6 @@
 				8064348B2C6E69D80036D4B3 /* manifest.json in Resources */,
 				806434872C6E69D80036D4B3 /* _locales in Resources */,
 				8064348F2C6E69D80036D4B3 /* content.js in Resources */,
-				806434952C6E69D90036D4B3 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +706,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Skippy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -750,6 +745,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Skippy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -854,6 +850,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Skippy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -889,6 +886,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Skippy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
