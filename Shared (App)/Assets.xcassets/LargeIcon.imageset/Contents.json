@@ -1,17 +1,14 @@
 {
   "images" : [
     {
-      "filename" : "macos.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "macos@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "macos@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
