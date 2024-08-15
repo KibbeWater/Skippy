@@ -2,8 +2,8 @@
     "manifest_version": 3,
     "default_locale": "en",
     
-    "name": "Skippy",
-    "description": "Skip YouTube ads on Safari browsers",
+    "name": "__MSG_extension_name__",
+    "description": "__MSG_extension_description__",
     "version": "1.0",
 
     "icons": {

@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "Skip YouTube ads on Safari browsers"
+        "message": "Skip YouTube ads on Safari browsers",
         "description": "Description of what the extension does."
     }
 }
